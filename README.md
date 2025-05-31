@@ -33,16 +33,11 @@ This project provides a job matching solution using the Google Gemini API. The a
 
 1. **Clone the repository:**
    ```bash
-   git clone https://gitlab.anasource.com/foram/machine-learning.git
-   cd machine-learning
+   git clone https://github.com/Sanjay3739/ResumeGPT.git
+   cd ResumeGPT
    ```
 
-2. **Checkout to the desired branch:**
-   ```bash
-   git checkout resume-job-matching-gemini
-   ```
-
-3. **Create a virtual environment and activate:**
+2. **Create a virtual environment and activate:**
    - On macOS/Linux:
      ```bash
      python3 -m venv venv
@@ -54,7 +49,7 @@ This project provides a job matching solution using the Google Gemini API. The a
      venv\Scripts\activate
      ```
 
-4. **Install required dependencies:**
+3. **Install required dependencies:**
    ```bash
    pip install -r requirements.txt
    ```
@@ -124,7 +119,3 @@ This project provides a job matching solution using the Google Gemini API. The a
 ## Example Output
 
 During interaction with the Streamlit application, you might see outputs like:
-
-![Output](./output.png)
-
-These outputs indicate the top candidates based on the provided job description and their similarity scores.
